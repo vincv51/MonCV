@@ -2,33 +2,51 @@
 	font-family: 'Alegreya-Black';
 	src:url('polices/alegreya/Alegreya-Black.otf');
 }
+@font-face {
+	font-family: 'Lato-Black';
+	src:url('polices/Lato2OFLWeb/Lato/fonts/Lato-Black.woff2');
+}
+@font-face {
+	font-family: 'Blenda_script';
+	src:url('polices/blenda_script/Blenda_Script.otf');
+}
 #bloc_page
 {
-	position:absolute;
-	padding-left:13%;
+	background-color: white;
+	/*position:absolute;*/
+	/*padding-left:10%;*/
     height: auto;
+    width : 75%;
 }
 body
 {   
 	background:radial-gradient(circle at center top, rgb(245,245,245), rgb(150,150,150));
+	font-family:'Lato-Black';
+}
+body h2, body h3
+{   
+	font-family:'Blenda_script';
 }
 #titre_principal
 {
-	font-family:'Alegreya-Black';
+	background-color: green;
 	text-align: center;
 	color: rgb(20,20,100);
 	text-shadow:5px 5px 2px rgba(0,0,255,0.4);
 }
 #Identite
 {
-	float: right;
-	border:1px rgba(0,0,255,0.4) solid;
-	border-radius:5%;
-	height:120px;
-	width:91px;
-	margin-right:5px;	
+	/*position: relative;*/
+	/*border:1px rgba(0,0,255,0.4) solid;*/
+	/*border-radius:5%;*/
+	height:auto;
+	width:100%;
+	margin-top : 20px;
+	margin-left:auto;
+	margin-right:auto;
+	/*margin-right:5px;	*/
 	background: url("images/Studio (204)_edited3.jpg" ) no-repeat center;
-	box-shadow: 5px 5px 2px rgba(0,0,255,0.4);
+	/*box-shadow: 5px 5px 2px rgba(0,0,255,0.4);*/
 }
 header h1
 {
@@ -42,8 +60,9 @@ header,section, footer
 {
 	overflow:auto;
 }
-#Mon_Experience,#Mes_Competences,#Ma_Formation
+#Mon_Experience,#Mes_Competences,#Ma_Formation, #Mes_Loisirs
 {
+	background-color: red;
 	position:relative;
 	width:30%;
 	display:inline-block;
@@ -53,7 +72,7 @@ header,section, footer
 }
 #Mon_Experience
 {
-	margin-left:2%;
+	margin-left:0%;
 }
 h2
 {
@@ -88,28 +107,50 @@ footer ul
 /* Bannière */
 #liseret_image
 {
-	position:absolute;
-	left:0px;
-	top:0px;
-	background: url("images/liseretvertical.jpg") no-repeat center;
-	background-size:cover;
-	width:12.5%;
+	/*position:absolute;*/
+	/*right:0px;
+	top:0px;*/
+	background-color: #545254;
+	/*background: url("images/liseretvertical.jpg") no-repeat center;*/
+	/*background-size:cover;*/
+	width:24%;
 	height: 100%;
 	padding-bottom:0px;
-    border-radius: 5px;
-	box-shadow: 0px 4px 4px #1c1a19;
+    /*border-radius: 5px;*/
+	/*box-shadow: 0px 4px 4px #1c1a19;*/
 }
 #liseret_description
 {
+	background-color: red;
 	position:relative;
-	margin-top:50%;
-	margin-bottom:auto;
-	border-radius: 5px;
-    text-align:center;
+	/*margin-top:50%;*/
+	/*margin-bottom:auto;*/
+	/*border-radius: 5px;*/
+    text-align:left;
     width: 100%;
     color: rgb(20,20,100);
-    font-size:4em;
+    font-size:1em;
 	overflow:hidden;
+}
+#liseret_description p,h3
+{
+	padding-left: 2em;
+}
+#liseret_description p .images
+{
+	background-color: gray;
+/*	line-height: 40px;*/
+
+}
+#liseret_description p .images img
+{
+	vertical-align:middle;
+	width: 2em;
+	padding-right: 1em;
+}
+#liseret_description p #retourligne
+{
+	margin-left: 3.5em;
 }
 #liseret_image,#bloc_page
 {
@@ -152,12 +193,12 @@ header
 	{
 	float:none;
 	border:1px rgba(0,0,255,0.4) solid;
-	border-radius:5%;
+	/*border-radius:5%;*/
 	height:120px;
 	width:91px;
 	margin-left:auto;
 	margin-right:auto;	
-	background: url("images/tn_photoidentite.jpg" ) no-repeat center;
+	background: url("images/Studio (204)_edited3.jpg" ) no-repeat center;
 	box-shadow: 5px 5px 2px rgba(0,0,255,0.4);		
 	}
 footer h2
