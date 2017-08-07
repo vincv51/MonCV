@@ -15,18 +15,23 @@
 	src:url('polices/Lato2OFLWeb/Lato/fonts/Lato-Bold.woff2');
 }
 @font-face {
+	font-family: 'Lato-Italic';
+	src:url('polices/Lato2OFLWeb/Lato/fonts/Lato-Italic.woff2');
+}
+@font-face {
 	font-family: 'Blenda_script';
 	src:url('polices/blenda_script/Blenda_Script.otf');
 }
 #bloc_page
 {
-	background: white;
+	/*background: white;*/
 	position:absolute;
 	left:0px;
 	top:0px;
 	/*padding-left:10%;*/
-    width : 75%;
+    width : 76%;
     height:100%;
+    margin: 0;
 }
 body
 {   
@@ -40,7 +45,7 @@ body h2, body h3
 }
 #titre_principal
 {
-	background-color: green;
+	/*background-color: green;*/
 	text-align: left;
 	padding-left: 2em;
 	/*color: rgb(20,20,100);*/
@@ -53,9 +58,7 @@ body h2, body h3
 	/*border-radius:5%;*/
 	height:auto;
 	width:100%;
-	margin-top : 20px;
-	margin-left:auto;
-	margin-right:auto;
+	margin-top : 0px;
 	/*margin-right:5px;	*/
 	background: url("images/Studio (204)_edited3.jpg" ) no-repeat center;
 	/*box-shadow: 5px 5px 2px rgba(0,0,255,0.4);*/
@@ -71,6 +74,7 @@ header a img
 {
 	/*background: gray;*/
 	float : right;
+	margin-top: 2em;
 	width: 60px;
 }
 header p
@@ -86,9 +90,9 @@ header,section, footer
 }
 #Mon_Experience,#Mes_Competences,#Ma_Formation, #Mes_Loisirs
 {
-	background-color: red;
+	/*background-color: red;*/
 	position:relative;
-	width:28%;
+	width:45%;
 	display:inline-block;
 	vertical-align:top;
 	margin-left:0px;
@@ -101,11 +105,21 @@ header,section, footer
 {
 	margin-left:0%;
 }
-#Mon_Profil p,#Mon_Profil h2
+#Mon_Profil p
 {
+	font-family: 'Lato-Italic';
 	text-align: left;
 	padding-left: 2em;
+	padding-right: 2em;	
 	text-align:justify;
+}
+#Mon_Profil h2
+{
+	text-align: left;
+	padding-left: 1em;
+	padding-right: 2em;	
+	margin-top: 1em;
+	margin-bottom: 0px;
 }
 .titre
 {
@@ -113,7 +127,7 @@ header,section, footer
 }
 section h2
 {
-	text-align:center;
+	text-align:left;
 	font-size:auto;
 	/*color: rgb(20,20,100);*/
 	text-shadow: 5px 5px 2px rgba(0,0,255,0.4);	
@@ -153,6 +167,7 @@ footer ul
 	right:0px;
 	top:0px;
 	background-color: #545254;
+	margin: 0;
 	/*background: url("images/liseretvertical.jpg") no-repeat center;*/
 	/*background-size:cover;*/
 	width:24%;
@@ -240,8 +255,8 @@ header
 	/*border-radius:5%;*/
 	height:120px;
 	width:91px;
-	margin-left:auto;
-	margin-right:auto;	
+	/*margin-left:auto;
+	margin-right:auto;*/	
 	background: url("images/Studio (204)_edited3.jpg" ) no-repeat center;
 	box-shadow: 5px 5px 2px rgba(0,0,255,0.4);		
 	}
