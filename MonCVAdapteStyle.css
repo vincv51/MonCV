@@ -7,31 +7,43 @@
 	src:url('polices/Lato2OFLWeb/Lato/fonts/Lato-Black.woff2');
 }
 @font-face {
+	font-family: 'Lato-Light';
+	src:url('polices/Lato2OFLWeb/Lato/fonts/Lato-Light.woff2');
+}
+@font-face {
+	font-family: 'Lato-Bold';
+	src:url('polices/Lato2OFLWeb/Lato/fonts/Lato-Bold.woff2');
+}
+@font-face {
 	font-family: 'Blenda_script';
 	src:url('polices/blenda_script/Blenda_Script.otf');
 }
 #bloc_page
 {
-	background-color: white;
-	/*position:absolute;*/
+	background: white;
+	position:absolute;
+	left:0px;
+	top:0px;
 	/*padding-left:10%;*/
-    height: auto;
     width : 75%;
+    height:100%;
 }
 body
 {   
 	background:radial-gradient(circle at center top, rgb(245,245,245), rgb(150,150,150));
-	font-family:'Lato-Black';
+	font-family:'Lato-Light';
 }
 body h2, body h3
 {   
 	font-family:'Blenda_script';
+	color: #600220;
 }
 #titre_principal
 {
 	background-color: green;
-	text-align: center;
-	color: rgb(20,20,100);
+	text-align: left;
+	padding-left: 2em;
+	/*color: rgb(20,20,100);*/
 	text-shadow:5px 5px 2px rgba(0,0,255,0.4);
 }
 #Identite
@@ -50,11 +62,23 @@ body h2, body h3
 }
 header h1
 {
+	/*background: gray;*/
 	font-size:220%;
+	display : inline-block;
+	margin-bottom: 0px;
+}
+header a img
+{
+	/*background: gray;*/
+	float : right;
+	width: 60px;
 }
 header p
 {
-	font-size:130%;
+	/*background: gray;*/
+	margin-top: auto;
+	margin-bottom: 0px;
+	font-size:150%;
 }
 header,section, footer
 {
@@ -64,35 +88,53 @@ header,section, footer
 {
 	background-color: red;
 	position:relative;
-	width:30%;
+	width:28%;
 	display:inline-block;
 	vertical-align:top;
-	margin-left:1%;
+	margin-left:0px;
+	margin-right: 0px;
 	overflow:auto;
+	padding-right: 1em;
+	padding-left: 1em;
 }
 #Mon_Experience
 {
 	margin-left:0%;
 }
-h2
+#Mon_Profil p,#Mon_Profil h2
+{
+	text-align: left;
+	padding-left: 2em;
+	text-align:justify;
+}
+.titre
+{
+	font-family: 'Lato-Bold';
+}
+section h2
 {
 	text-align:center;
 	font-size:auto;
-	color: rgb(20,20,100);
+	/*color: rgb(20,20,100);*/
 	text-shadow: 5px 5px 2px rgba(0,0,255,0.4);	
 }
-em
+section em
 {
 	text-decoration:underline;
 }
-li p
+section li p
 {
 	font-size:auto;
 	text-align:justify;
 }
-li strong
+section li strong
 {
 	font-size:auto;
+}
+footer
+{
+	/*position: relative;
+	bottom: 0px;*/
 }
 footer h2
 {
@@ -107,50 +149,52 @@ footer ul
 /* Bannière */
 #liseret_image
 {
-	/*position:absolute;*/
-	/*right:0px;
-	top:0px;*/
+	position:absolute;
+	right:0px;
+	top:0px;
 	background-color: #545254;
 	/*background: url("images/liseretvertical.jpg") no-repeat center;*/
 	/*background-size:cover;*/
 	width:24%;
-	height: 100%;
-	padding-bottom:0px;
+	max-width: 349px;
+	/*height: 100%;*/
+	/*padding-bottom:0px;*/
     /*border-radius: 5px;*/
 	/*box-shadow: 0px 4px 4px #1c1a19;*/
 }
 #liseret_description
 {
-	background-color: red;
+	/*background-color: red;*/
 	position:relative;
 	/*margin-top:50%;*/
 	/*margin-bottom:auto;*/
 	/*border-radius: 5px;*/
     text-align:left;
     width: 100%;
-    color: rgb(20,20,100);
+    /*color: rgb(20,20,100);*/
     font-size:1em;
 	overflow:hidden;
 }
 #liseret_description p,h3
 {
 	padding-left: 2em;
+	color: white ;
 }
 #liseret_description p .images
 {
-	background-color: gray;
-/*	line-height: 40px;*/
+	/*background-color: gray;
+*//*	line-height: 40px;*/
 
 }
 #liseret_description p .images img
 {
 	vertical-align:middle;
-	width: 2em;
+	width: 1.5em;
 	padding-right: 1em;
 }
 #liseret_description p #retourligne
 {
-	margin-left: 3.5em;
+	margin-left: 3em;
 }
 #liseret_image,#bloc_page
 {
