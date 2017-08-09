@@ -95,20 +95,20 @@ header,section, footer
 }
 #Mon_Experience,#Mes_Competences,#Ma_Formation, #Mes_Loisirs
 {
-	/*background-color: red;*/
+	background-color: red;
 	position:relative;
-	width:45%;
+	width:43%;
 	display:inline-block;
 	vertical-align:top;
-	margin-left:0px;
-	margin-right: 0px;
+/*	margin-left:auto;
+	margin-right: auto;*/
 	overflow:auto;
-	padding-right: 1em;
-	padding-left: 2em;
+	/*padding-right: 1em;
+	padding-left: 2em;*/
 }
 #Mon_Experience
 {
-	margin-left:0%;
+	/*margin-left:0%;*/
 }
 #Mon_Profil p
 {
@@ -129,6 +129,21 @@ header,section, footer
 .titre
 {
 	font-family: 'Lato-Bold';
+}
+section
+{
+	background: gray;
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#Mes_Colonnes
+{
+	background: white;
+	width : 100%;
+	text-align: center;
+	padding-left :auto;
+	padding-right :auto;
 }
 section h2
 {
