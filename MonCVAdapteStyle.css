@@ -149,14 +149,10 @@ section em
 {
 	text-decoration:underline;
 }
-section li p
+section p
 {
 	font-size:auto;
 	text-align:justify;
-}
-section li strong
-{
-	font-size:auto;
 }
 footer
 {
