@@ -95,7 +95,7 @@ header,section, footer
 }
 #Mon_Experience,#Mes_Competences,#Ma_Formation, #Mes_Loisirs
 {
-	background-color: red;
+	/*background-color: red;*/
 	position:relative;
 	width:43%;
 	display:inline-block;
@@ -103,8 +103,8 @@ header,section, footer
 /*	margin-left:auto;
 	margin-right: auto;*/
 	overflow:auto;
-	/*padding-right: 1em;
-	padding-left: 2em;*/
+	padding-right: 1em;
+	padding-left: 2em;
 }
 #Mon_Experience
 {
@@ -130,21 +130,14 @@ header,section, footer
 {
 	font-family: 'Lato-Bold';
 }
-section
-{
-	background: gray;
-	width:100%;
-	margin-left: auto;
-	margin-right: auto;
-}
-#Mes_Colonnes
+/*#Mes_Colonnes
 {
 	background: white;
 	width : 100%;
 	text-align: center;
 	padding-left :auto;
 	padding-right :auto;
-}
+}*/
 section h2
 {
 	text-align:left;
